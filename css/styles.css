@@ -1,0 +1,156 @@
+*{margin:0px; padding:0px;}
+/* Desktop */
+@media only screen  and (max-width:1000px) {
+    .experience-section .w3-col {
+       display:none;
+    }
+} 
+
+/* Smartphones (portrait and landscape) */
+@media only screen and (min-device-width : 320px) and (max-device-width : 480px) {
+ .experience-section .w3-col {
+       display:none;
+}
+}
+
+section{
+      width:100%;
+      height:80%;
+	margin-top:200px;
+        margin-bottom:170px;
+        padding:10px;
+	background-attachment:fixed;
+}
+
+#homePage{
+  
+   background: url("../images/portfolio.jpg")100% 0 no-repeat;                   /*   Sets the background image, position, repeating factor to none*/
+   background-size:cover;
+                                                     /*    Covers the whole page*/
+   height:100%; 
+   position: relative;                              /* Covers the whole height*position: relative;*/                                    /*Sets the relative position*/
+   overflow: hidden;
+   width:100%
+}
+div.homepage {
+  background-color:transparent ;
+  margin: 20px 0 20px 0;
+  padding: 0px;
+} 
+                                                
+#navdiv ul{                                                                   /*Sets the Navigation Menu Page Properties*/
+ position:absolute;
+ top:0px; 
+ width:100%;
+ height:80px;
+ background:black;
+ line-height:80px;
+ color:white;
+}
+
+#navdiv ul a{ 
+ text-decoration:none;
+ color:white;
+ padding:50px;
+
+}
+
+#navdiv ul li{ 
+list-style-type:none;
+float:left;
+display:inline-block;
+
+
+}
+
+#navdiv ul li:hover{
+background:green;
+transition:all 0.03s;
+}
+
+h1{
+  color:white;
+  font-size: 4vw; 
+  background-color:transparent; 
+  text-decoration:bold; 
+  font-family: 'Roboto', sans-serif;
+  font-size: 300%;
+  text-align:center;
+  margin-top:120px;
+}
+h4{
+  color:white;
+  font-size: 1.8vw; 
+  background-color:transparent; 
+  text-decoration:none; 
+  font-family: 'Roboto', sans-serif;
+  text-align:center;
+  margin-bottom:30px;
+}
+
+#aboutmepage                                                   /*Assigns About Me Page and Background*/
+{
+   background:#9fa9a3;
+   color:black;
+    padding:20px;
+}
+p 	  	  
+ {  
+   top:0px;
+   color:black; 
+   background-color:transparent; 
+   text-decoration:none;
+   font-family:'EB Garamond', serif;
+   font-size:1.4vw;
+   margin-left:360px ;
+  /* padding:0px; */
+   padding-top:5px;
+ }
+                              
+
+#portfoliopage {                                            /*Assigns Portfolio Page and Background*/
+background:#b9b0b0;
+color:black;
+padding:20px;
+}
+
+#contactmepage {                                            /*Assigns Contact Me Page and Background*/
+top:0px;
+background:#b0aac0;
+color:black;
+padding:20px;
+}
+
+
+input[type=text], select {
+    width: 100%;
+    padding: 10px 15px;
+    margin: 4px 0;
+    display: inline-block;
+    border: 3px solid #555;
+    border-radius: 5px;
+    box-sizing: border-box;
+    color: black;
+}
+
+input[type=submit] {
+    width:60%;
+    background-color: #4CAF50;
+    color: white;
+    padding: 14px 20px;
+    margin: 5px 0;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+input[type=submit]:hover {
+    background-color: #45a049;
+}
+
+div {
+    border-radius: 5px;
+    background-color: #f2f2f2;
+    padding:5px;
+}
+
